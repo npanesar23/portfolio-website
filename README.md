@@ -51,12 +51,5 @@ npm run build
 Let’s collaborate and build something impactful.
 
 - 🌍 [Website](https://nitishpanesar.com)
-- 📄 [Resume](https://nitishpanesar.com)
-- 💼 [LinkedIn](https://linkedin.com/in/your-profile)
+- 💼 [LinkedIn](https://linkedin.com/in/nitishpanesar)
 - 💻 [GitHub](https://github.com/npanesar23)
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
