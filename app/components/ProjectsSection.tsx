@@ -33,48 +33,46 @@ export default function ProjectsSection() {
 				</motion.h2>
 
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-					{projects.map((project, index) => {
-						const ProjectCard = (
-							<motion.div
-								key={index}
-								initial={{ opacity: 0, y: 20 }}
-								whileInView={{ opacity: 1, y: 0 }}
-								viewport={{ once: true }}
-								transition={{ delay: index * 0.2 }}
-								className="group relative bg-white rounded-xl overflow-hidden backdrop-blur-sm border border-gray-200 shadow-lg"
-							>
-								<div className="aspect-video relative overflow-hidden">
+					{projects.map((project, index) => (
+						<motion.div
+							key={index}
+							initial={{ opacity: 0, y: 20 }}
+							whileInView={{ opacity: 1, y: 0 }}
+							viewport={{ once: true }}
+							transition={{ delay: index * 0.2 }}
+							className="group relative bg-white rounded-xl overflow-hidden backdrop-blur-sm border border-gray-200 shadow-lg"
+						>
+							{project.url ? (
+								<a
+									href={project.url}
+									target="_blank"
+									rel="noopener noreferrer"
+									className="block cursor-pointer"
+								>
+									<div className="aspect-[16/10] relative overflow-hidden">
+										<Image src={project.image} alt={project.title} fill className="object-cover transition-transform duration-300 group-hover:scale-105" />
+										<div className="absolute inset-0 bg-gradient-to-t from-white via-white/0 to-transparent transition-transform duration-300 group-hover:scale-105" />
+									</div>
+								</a>
+							) : (
+								<div className="aspect-[16/10] relative overflow-hidden">
 									<Image src={project.image} alt={project.title} fill className="object-cover transition-transform duration-300 group-hover:scale-105" />
 									<div className="absolute inset-0 bg-gradient-to-t from-white via-white/0 to-transparent transition-transform duration-300 group-hover:scale-105" />
 								</div>
-								<div className="p-6">
-									<h3 className="text-xl font-bold mb-2 text-gray-900">{project.title}</h3>
-									<p className="text-gray-600 mb-4 whitespace-pre-line">{project.description}</p>
-									<div className="flex flex-wrap gap-2">
-										{project.tags.map((tag, i) => (
-											<span key={i} className="text-sm px-3 py-1 bg-blue-50 text-blue-700 rounded-full">
-												{tag}
-											</span>
-										))}
-									</div>
+							)}
+							<div className="p-6">
+								<h3 className="text-xl font-bold mb-2 text-gray-900">{project.title}</h3>
+								<p className="text-gray-600 mb-4 whitespace-pre-line">{project.description}</p>
+								<div className="flex flex-wrap gap-2">
+									{project.tags.map((tag, i) => (
+										<span key={i} className="text-sm px-3 py-1 bg-blue-50 text-blue-700 rounded-full">
+											{tag}
+										</span>
+									))}
 								</div>
-							</motion.div>
-						);
-
-						return project.url ? (
-							<a
-								key={index}
-								href={project.url}
-								target="_blank"
-								rel="noopener noreferrer"
-								className="block cursor-pointer"
-							>
-								{ProjectCard}
-							</a>
-						) : (
-							ProjectCard
-						);
-					})}
+							</div>
+						</motion.div>
+					))}
 				</div>
 			</div>
 		</section>
