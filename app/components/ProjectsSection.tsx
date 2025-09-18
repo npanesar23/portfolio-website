@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 const projects = [
 	{
 		title: 'Cogniroute - B2B Logistics SaaS Platform',
-		description: '⚡️ B2B logistics SaaS platform managing 50+ drivers and 250+ weekly shipments\n💻 Digitized 100% of dispatch operations with automated shipment processing\n🚛 Onboarded pilot customer (10+ vehicles) generating $2.5k ARR\n⏱️ Reduced manual planning from 3 hours to under 1 hour daily\n🔐 Built secure JWT authentication with role-based access control',
+		description: '⚡️ 50+ drivers, 250+ weekly shipments managed\n💻 100% dispatch automation\n🚛 $2.5k ARR from real trucking company (10+ vehicles)\n⏱️ 3+ hours → 30 mins daily admin work\n🔐 Enterprise-grade JWT security',
 		image: '/cogniroute.png',
 		tags: ['Next.js', 'Typescript', 'Tailwind CSS', 'PostgreSQL'],
 	},
