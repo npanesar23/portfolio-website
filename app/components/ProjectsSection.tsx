@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 const projects = [
 	{
 		title: 'Cogniroute - B2B Logistics SaaS Platform',
-		description: 'Developed and deployed a B2B logistics SaaS platform managing 50+ drivers and 250+ weekly shipments, enabling trucking companies to digitize 100% of dispatch operations and automate the processing of shipment updates, driver assignments, and status changes. Onboarded a local trucking company (10+ vehicles) as a pilot customer, generating $2.5k ARR and decreasing manual dispatch planning from 3 hours to under 1 hour per day by automating shipment assignment, route tracking, and driver scheduling',
+		description: '⚡️ B2B logistics SaaS platform managing 50+ drivers and 250+ weekly shipments\n💻 Digitized 100% of dispatch operations with automated shipment processing\n🚛 Onboarded pilot customer (10+ vehicles) generating $2.5k ARR\n⏱️ Reduced manual planning from 3 hours to under 1 hour daily\n🔐 Built secure JWT authentication with role-based access control',
 		image: '/cogniroute.png',
 		tags: ['Next.js', 'Typescript', 'Tailwind CSS', 'PostgreSQL'],
 	},
@@ -47,7 +47,7 @@ export default function ProjectsSection() {
 							</div>
 							<div className="p-6">
 								<h3 className="text-xl font-bold mb-2 text-gray-900">{project.title}</h3>
-								<p className="text-gray-600 mb-4">{project.description}</p>
+								<p className="text-gray-600 mb-4 whitespace-pre-line">{project.description}</p>
 								<div className="flex flex-wrap gap-2">
 									{project.tags.map((tag, i) => (
 										<span key={i} className="text-sm px-3 py-1 bg-blue-50 text-blue-700 rounded-full">
