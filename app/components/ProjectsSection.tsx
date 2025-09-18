@@ -5,10 +5,10 @@ import { motion } from 'framer-motion';
 
 const projects = [
 	{
-		title: '🚛 Cogniroute - B2B Logistics Platform',
-		description: 'Developed and deployed a comprehensive logistics management platform that digitizes dispatch operations for trucking companies. Manages 50+ drivers and 250+ weekly shipments, generating $2.5K ARR and reducing manual dispatch planning from 3 hours to under 1 hour daily.',
+		title: 'Cogniroute - B2B Logistics SaaS Platform',
+		description: 'Developed and deployed a B2B logistics SaaS platform managing 50+ drivers and 250+ weekly shipments, enabling trucking companies to digitize 100% of dispatch operations and automate the processing of shipment updates, driver assignments, and status changes. Onboarded a local trucking company (10+ vehicles) as a pilot customer, generating $2.5k ARR and decreasing manual dispatch planning from 3 hours to under 1 hour per day by automating shipment assignment, route tracking, and driver scheduling',
 		image: '/cogniroute.png',
-		tags: ['Next.js', 'TypeScript', 'PostgreSQL', 'Leaflet'],
+		tags: ['Next.js', 'Typescript', 'Tailwind CSS', 'PostgreSQL'],
 	},
 	{
 		title: '🚀 Coming Soon...',
