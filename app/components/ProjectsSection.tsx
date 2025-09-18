@@ -60,7 +60,7 @@ export default function ProjectsSection() {
 									<div className="absolute inset-0 bg-gradient-to-t from-white via-white/0 to-transparent" />
 								</div>
 							)}
-							<div className="p-6">
+							<div className="p-6 -mt-16 relative z-10 bg-white/95 backdrop-blur-sm rounded-b-xl">
 								<h3 className="text-xl font-bold mb-2 text-gray-900">{project.title}</h3>
 								<p className="text-gray-600 mb-4 whitespace-pre-line">{project.description}</p>
 								<div className="flex flex-wrap gap-2">
