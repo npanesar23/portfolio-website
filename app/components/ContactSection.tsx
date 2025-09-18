@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export default function ContactSection() {
 	return (
-		<section className="py-20 px-4">
+		<section className="py-16 px-4">
 			<div className="max-w-4xl mx-auto">
 				<motion.div
 					initial={{ opacity: 0, y: 20 }}
@@ -79,7 +79,7 @@ export default function ContactSection() {
 									</svg>
 								</motion.a>
 								<motion.a
-									href="https://www.linkedin.com/in/nitishpanesar"
+									href="https://www.linkedin.com/in/npanesar"
 									whileHover={{ scale: 1.05 }}
 									whileTap={{ scale: 0.95 }}
 									className="group flex items-center justify-center p-4 bg-purple-50 hover:bg-purple-100 rounded-xl border border-purple-200 transition-all duration-300"
