@@ -5,16 +5,16 @@ import { motion } from 'framer-motion';
 
 const projects = [
 	{
-		title: '🔥 Wildfire Risk Mapping Dashboard for Western Canada (British Columbia + Alberta)',
-		description: 'Built an interactive wildfire risk dashboard using MODIS fire data, vegetation indices, and burn perimeters to map high-risk zones in BC and Alberta. Automated geospatial workflows in Python (GeoPandas, Rasterio) to process satellite imagery and classify hazards, cutting manual GIS work and enabling scalable updates.',
+		title: '🚛 Cogniroute - B2B Logistics Platform',
+		description: 'Developed and deployed a comprehensive logistics management platform that digitizes dispatch operations for trucking companies. Manages 50+ drivers and 250+ weekly shipments, generating $2.5K ARR and reducing manual dispatch planning from 3 hours to under 1 hour daily.',
 		image: '/laptop.jpg',
-		tags: ['Python + GeoPandas', 'Folium', 'QGIS', 'NrCan & NASA FIRMS'],
+		tags: ['Next.js', 'TypeScript', 'PostgreSQL', 'Leaflet'],
 	},
 	{
-		title: '🏙️ Census-Based Socioeconomic Mapping Tool',
-		description: 'Built a spatial equity analysis tool using 2021 Census data to map population density, income, and transit accessibility in Ottawa. Developed a reproducible R workflow (sf, dplyr, tmap) to support policy decisions, identify underserved areas, and run scenario-based assessments.',
+		title: '🚀 Coming Soon...',
+		description: 'Working on exciting new projects that combine geospatial analysis with modern web technologies. Stay tuned for updates on innovative solutions for real-world problems.',
 		image: '/code.jpg',
-		tags: ['R (language)', 'tmap', 'StatsCan Census Data', 'QGIS'],
+		tags: ['In Development', 'Geospatial', 'Web Technologies', 'Innovation'],
 	},
 ];
 
