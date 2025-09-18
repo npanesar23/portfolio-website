@@ -50,14 +50,14 @@ export default function ProjectsSection() {
 									className="block cursor-pointer"
 								>
 									<div className="aspect-[16/10] relative overflow-hidden">
-										<Image src={project.image} alt={project.title} fill className="object-cover transition-transform duration-300 group-hover:scale-105" />
-										<div className="absolute inset-0 bg-gradient-to-t from-white via-white/0 to-transparent transition-transform duration-300 group-hover:scale-105" />
+										<Image src={project.image} alt={project.title} fill className="object-cover" />
+										<div className="absolute inset-0 bg-gradient-to-t from-white via-white/0 to-transparent" />
 									</div>
 								</a>
 							) : (
 								<div className="aspect-[16/10] relative overflow-hidden">
-									<Image src={project.image} alt={project.title} fill className="object-cover transition-transform duration-300 group-hover:scale-105" />
-									<div className="absolute inset-0 bg-gradient-to-t from-white via-white/0 to-transparent transition-transform duration-300 group-hover:scale-105" />
+									<Image src={project.image} alt={project.title} fill className="object-cover" />
+									<div className="absolute inset-0 bg-gradient-to-t from-white via-white/0 to-transparent" />
 								</div>
 							)}
 							<div className="p-6">
