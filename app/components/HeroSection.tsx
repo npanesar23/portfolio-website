@@ -15,10 +15,10 @@ export default function HeroSection() {
 					<h1 className="text-5xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">Nitish Panesar</h1>
 					<p className="text-xl md:text-2xl text-gray-600 mb-8">Honours Geomatics @ UWaterloo | Software Engineer</p>
 					<div className="flex flex-wrap justify-center gap-4 text-sm">
-						<span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-full border border-blue-200">JavaScript · TypeScript · Python · SQL · C++</span>
-						<span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-full border border-blue-200">React.js · Next.js · Node.js · React Native</span>
+						<span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-full border border-blue-200">JS · TS · Python · C++</span>
+						<span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-full border border-blue-200">React · Next.js · Node.js</span>
 						<span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-full border border-blue-200">Django · Flask · Tailwind CSS</span>
-						<span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-full border border-blue-200">PostgreSQL · MongoDB · Redis · AWS</span>
+						<span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-full border border-blue-200">SQL · MongoDB · AWS</span>
 						<span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-full border border-blue-200">ArcGIS Pro · QGIS</span>
 					</div>
 				</motion.div>
