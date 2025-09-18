@@ -7,7 +7,7 @@ const projects = [
 	{
 		title: '🚛 Cogniroute - B2B Logistics Platform',
 		description: 'Developed and deployed a comprehensive logistics management platform that digitizes dispatch operations for trucking companies. Manages 50+ drivers and 250+ weekly shipments, generating $2.5K ARR and reducing manual dispatch planning from 3 hours to under 1 hour daily.',
-		image: '/laptop.jpg',
+		image: '/cogniroute.png',
 		tags: ['Next.js', 'TypeScript', 'PostgreSQL', 'Leaflet'],
 	},
 	{
