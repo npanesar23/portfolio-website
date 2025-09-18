@@ -16,9 +16,9 @@ export default function HeroSection() {
 					<p className="text-xl md:text-2xl text-gray-600 mb-8">Honours Geomatics @ UWaterloo | Software Engineer</p>
 					<div className="flex flex-wrap justify-center gap-4 text-sm">
 						<span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-full border border-blue-200">JS · TS · Python · C++</span>
-						<span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-full border border-blue-200">React · Next.js</span>
-						<span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-full border border-blue-200">Django · Tailwind CSS</span>
-						<span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-full border border-blue-200">SQL · AWS · ArcGIS Pro · QGIS</span>
+						<span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-full border border-blue-200">React · Next.js · Tailwind</span>
+						<span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-full border border-blue-200">SQL · Django · AWS</span>
+						<span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-full border border-blue-200">ArcGIS Pro · QGIS</span>
 					</div>
 				</motion.div>
 			</div>
