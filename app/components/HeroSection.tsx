@@ -33,4 +33,4 @@ export default function HeroSection() {
 		</section>
 	);
 }
-// Updated Thu Sep 18 17:26:52 EDT 2025 - Deployment trigger
+// Updated Thu Sep 18 17:26:52 EDT 2025 - Deployment trigger - Force update
