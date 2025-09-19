@@ -49,9 +49,9 @@ export default function ProjectsSection() {
 									rel="noopener noreferrer"
 									className="block cursor-pointer"
 								>
-									<div className="aspect-[16/10] relative overflow-hidden">
-										<Image src={project.image} alt={project.title} fill className="object-cover" />
-										<div className="absolute inset-0 bg-gradient-to-t from-white via-white/0 to-transparent" />
+									<div className="aspect-[16/10] relative overflow-hidden p-4 bg-white">
+										<Image src={project.image} alt={project.title} fill className="object-cover rounded-lg" />
+										<div className="absolute inset-4 bg-gradient-to-t from-white via-white/0 to-transparent rounded-lg" />
 									</div>
 								</a>
 							) : (
