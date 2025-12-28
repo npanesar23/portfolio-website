@@ -12,10 +12,10 @@ const projects = [
 		url: 'https://cogniroute.dev',
 	},
 	{
-		title: '🚀 Coming Soon...',
-		description: 'Working on exciting new projects that combine geospatial analysis with modern web technologies. Stay tuned for updates on innovative solutions for real-world problems.',
+		title: 'RateMyWatch.ca - Full-Stack Watch Review Platform',
+		description: '⏱️ Browse, search, and review watches\n💻 Crowdsourced data from users\n📸 25+ reviews on 10+ watches with 4.6 average rating',
 		image: '/code.jpg',
-		tags: ['In Development', 'Geospatial', 'Web Technologies', 'Innovation'],
+		tags: ['Next.js', 'Typescript', 'React', 'Tailwind CSS'],
 	},
 ];
 
