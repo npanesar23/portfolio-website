@@ -5,10 +5,10 @@ import { motion } from 'framer-motion';
 
 const projects = [
 	{
-		title: 'Cogniroute - B2B Logistics SaaS Platform',
-		description: '💻 Automate 100% of your dispatch operations\n⚡️ 50+ drivers, 250+ weekly shipments managed\n🚛 $2.5k ARR from local trucking company (10+ vehicles)',
+		title: 'Cogniroute - Logistics SaaS Platform',
+		description: '💻 Automate 100% of your dispatch operations\n🚛 Onboarded 1 local trucking company from Mississauga\n⚡️ AI-powered invoice extraction',
 		image: '/cogniroute.png',
-		tags: ['Next.js', 'Typescript', 'Tailwind CSS', 'PostgreSQL'],
+		tags: ['Next.js', 'Typescript', 'PostgreSQL', 'Google Gemini AI'],
 		url: 'https://cogniroute.dev',
 	},
 	{
