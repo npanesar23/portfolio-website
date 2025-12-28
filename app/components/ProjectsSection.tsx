@@ -13,9 +13,9 @@ const projects = [
 	},
 	{
 		title: 'RateMyWatch.ca - Watch Review Platform',
-		description: '⏱️ Browse, search, and review 10+ watches\n💻 Crowdsourced data from users\n📸 25+ reviews with an average 4.6 rating',
+		description: '💻 Crowdsourced data from users\n⏱️ Browse, search, and review 10+ watches\n📸 Over 25+ watch reviews with a 4.6 average rating',
 		image: '/code.jpg',
-		tags: ['Next.js', 'Typescript', 'React', 'Supabase', 'Tailwind CSS'],
+		tags: ['Next.js', 'Typescript', 'Tailwind CSS','React', 'Supabase'],
 		url: 'https://ratemywatch.ca',
 	},
 ];
