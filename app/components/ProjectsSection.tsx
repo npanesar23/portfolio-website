@@ -12,10 +12,11 @@ const projects = [
 		url: 'https://cogniroute.dev',
 	},
 	{
-		title: 'RateMyWatch.ca - Full-Stack Watch Review Platform',
-		description: '⏱️ Browse, search, and review watches\n💻 Crowdsourced data from users\n📸 25+ reviews on 10+ watches with 4.6 average rating',
+		title: 'RateMyWatch.ca - Watch Review Platform',
+		description: '⏱️ Browse, search, and review 10+ watches\n💻 Crowdsourced data from users\n📸 25+ reviews with an average 4.6 rating',
 		image: '/code.jpg',
-		tags: ['Next.js', 'Typescript', 'React', 'Tailwind CSS'],
+		tags: ['Next.js', 'Typescript', 'React', 'Supabase', 'Tailwind CSS'],
+		url: 'https://ratemywatch.ca',
 	},
 ];
 
