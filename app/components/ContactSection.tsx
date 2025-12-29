@@ -56,7 +56,7 @@ export default function ContactSection() {
 								rel="noopener noreferrer"
 								whileHover={{ scale: 1.05 }}
 								whileTap={{ scale: 0.95 }}
-								className="flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-r from-green-600 to-teal-600 rounded-2xl hover:from-green-700 hover:to-teal-700 transition-all duration-300 font-medium text-white"
+								className="flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-r from-green-500 via-emerald-500 to-teal-600 rounded-2xl hover:from-green-600 hover:via-emerald-600 hover:to-teal-700 transition-all duration-300 font-medium text-white"
 							>
 								<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 									<path
@@ -74,7 +74,7 @@ export default function ContactSection() {
 								rel="noopener noreferrer"
 								whileHover={{ scale: 1.05 }}
 								whileTap={{ scale: 0.95 }}
-								className="flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-r from-amber-600 to-orange-600 rounded-2xl hover:from-amber-700 hover:to-orange-700 transition-all duration-300 font-medium text-white"
+								className="flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-r from-amber-500 via-orange-500 to-red-500 rounded-2xl hover:from-amber-600 hover:via-orange-600 hover:to-red-600 transition-all duration-300 font-medium text-white"
 							>
 								<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 									<path
