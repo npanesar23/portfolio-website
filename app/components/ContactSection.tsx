@@ -50,42 +50,44 @@ export default function ContactSection() {
 								</svg>
 								Get in Touch
 							</motion.a>
-							<motion.a
-								href="/portfolio.pdf"
-								target="_blank"
-								rel="noopener noreferrer"
-								whileHover={{ scale: 1.05 }}
-								whileTap={{ scale: 0.95 }}
-								className="w-full sm:w-auto flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-r from-green-600 to-teal-600 rounded-2xl hover:from-green-700 hover:to-teal-700 transition-all duration-300 font-medium text-white"
-							>
-								<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-									<path
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2"
-										d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"
-									/>
-								</svg>
-								View GIS Portfolio
-							</motion.a>
-							<motion.a
-								href="/resume.pdf"
-								target="_blank"
-								rel="noopener noreferrer"
-								whileHover={{ scale: 1.05 }}
-								whileTap={{ scale: 0.95 }}
-								className="w-full sm:w-auto flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-r from-amber-600 to-orange-600 rounded-2xl hover:from-amber-700 hover:to-orange-700 transition-all duration-300 font-medium text-white"
-							>
-								<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-									<path
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2"
-										d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-									/>
-								</svg>
-								Resume
-							</motion.a>
+							<div className="flex flex-wrap items-center justify-center gap-4 w-full sm:w-auto">
+								<motion.a
+									href="/portfolio.pdf"
+									target="_blank"
+									rel="noopener noreferrer"
+									whileHover={{ scale: 1.05 }}
+									whileTap={{ scale: 0.95 }}
+									className="flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-r from-green-600 to-teal-600 rounded-2xl hover:from-green-700 hover:to-teal-700 transition-all duration-300 font-medium text-white"
+								>
+									<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+										<path
+											strokeLinecap="round"
+											strokeLinejoin="round"
+											strokeWidth="2"
+											d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"
+										/>
+									</svg>
+									View GIS Portfolio
+								</motion.a>
+								<motion.a
+									href="/resume.pdf"
+									target="_blank"
+									rel="noopener noreferrer"
+									whileHover={{ scale: 1.05 }}
+									whileTap={{ scale: 0.95 }}
+									className="flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-r from-amber-600 to-orange-600 rounded-2xl hover:from-amber-700 hover:to-orange-700 transition-all duration-300 font-medium text-white"
+								>
+									<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+										<path
+											strokeLinecap="round"
+											strokeLinejoin="round"
+											strokeWidth="2"
+											d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+										/>
+									</svg>
+									Resume
+								</motion.a>
+							</div>
 							<div className="flex gap-4">
 								<motion.a
 									href="https://github.com/npanesar23"
