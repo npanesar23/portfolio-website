@@ -10,19 +10,13 @@ const wrapper = ({ children }: { children: ReactNode }) => (
 );
 
 describe('Home Page', () => {
-  it('renders the cinematic hero heading', () => {
+  it('renders the centered name text', () => {
     render(<Home />, { wrapper });
-    expect(
-      screen.getByRole('heading', {
-        level: 1,
-        name: /Where dreams rise through the silence\./,
-      }),
-    ).toBeInTheDocument();
+    expect(screen.getByText('Nitish Panesar')).toBeInTheDocument();
   });
 
-  it('renders the logo and CTAs', () => {
+  it('does not render any CTAs/buttons', () => {
     render(<Home />, { wrapper });
-    expect(screen.getByText('Velorah')).toBeInTheDocument();
-    expect(screen.getAllByText('Begin Journey')).toHaveLength(2);
+    expect(screen.queryByRole('button', { name: /begin journey/i })).not.toBeInTheDocument();
   });
 });
