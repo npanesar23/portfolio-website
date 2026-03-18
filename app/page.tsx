@@ -20,14 +20,14 @@ export default function Home() {
           Nitish Panesar
         </h1>
 
-        <ul className="mt-12 w-full max-w-3xl space-y-8 flex flex-col items-center">
-          <li className="flex flex-col items-center text-center gap-4">
+        <ul className="mt-12 w-full max-w-3xl space-y-8">
+          <li className="flex items-start gap-4">
             <img
               src="/uwaterloo_logo.jpeg"
               alt="University of Waterloo logo"
               className="w-12 h-12 object-contain mt-1"
             />
-            <div>
+            <div className="text-left">
               <div className="text-foreground text-base sm:text-lg font-medium">
                 Geospatial Data Science @ University of Waterloo
               </div>
@@ -37,13 +37,13 @@ export default function Home() {
             </div>
           </li>
 
-          <li className="flex flex-col items-center text-center gap-4">
+          <li className="flex items-start gap-4">
             <img
               src="/tinybox-logo.png"
               alt="Tinybox Systems logo"
               className="w-12 h-12 object-contain mt-1"
             />
-            <div>
+            <div className="text-left">
               <div className="text-foreground text-base sm:text-lg font-medium">
                 Growth &amp; Go-to-Market (GTM) @ Tinybox Systems
               </div>
@@ -53,13 +53,13 @@ export default function Home() {
             </div>
           </li>
 
-          <li className="flex flex-col items-center text-center gap-4">
+          <li className="flex items-start gap-4">
             <img
               src="/meridian-logo.png"
               alt="Meridian Advertising Group logo"
               className="w-12 h-12 object-contain mt-1"
             />
-            <div>
+            <div className="text-left">
               <div className="text-foreground text-base sm:text-lg font-medium">
                 Founder @ Meridian Advertising Group
               </div>
