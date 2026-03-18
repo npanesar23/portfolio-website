@@ -15,8 +15,12 @@ describe('Home Page', () => {
     expect(screen.getByText('Nitish Panesar')).toBeInTheDocument();
   });
 
-  it('does not render any CTAs/buttons', () => {
+  it('renders resume bullet sections', () => {
     render(<Home />, { wrapper });
-    expect(screen.queryByRole('button', { name: /begin journey/i })).not.toBeInTheDocument();
+    expect(
+      screen.getByText('Geospatial Data Science @ University of Waterloo'),
+    ).toBeInTheDocument();
+    expect(screen.getByText('Growth & Go-to-Market (GTM) @ Tinybox Systems')).toBeInTheDocument();
+    expect(screen.getByText('Founder @ Meridian Advertising Group')).toBeInTheDocument();
   });
 });
