@@ -31,7 +31,7 @@ export const viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={jetbrainsMono.variable}>
-      <body className={`bg-[#1a1a1a] min-h-screen antialiased`}>
+      <body className={`bg-background text-foreground min-h-screen antialiased`}>
         <ClientProviders>
           {children}
         </ClientProviders>

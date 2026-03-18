@@ -1,101 +1,76 @@
-'use client';
+import { Button } from '@/components/ui/button';
 
-import { useLanguage } from '@/contexts/LanguageContext';
-import Footer from '@/components/Footer';
+const navLinks = [
+  { label: 'Home', href: '/', active: true },
+  { label: 'Studio', href: '#studio', active: false },
+  { label: 'About', href: '#about', active: false },
+  { label: 'Journal', href: '#journal', active: false },
+  { label: 'Reach Us', href: '#reach', active: false },
+] as const;
 
 export default function Home() {
-  const { t } = useLanguage();
-
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-4 md:p-12 relative z-10">
-      {/* Hero Section */}
-      <div className="max-w-lg w-full space-y-1 md:space-y-2 mx-auto">
-        <div className="flex items-start justify-between mb-0">
-          <h1 className="text-xl sm:text-2xl md:text-3xl font-normal text-white">
-            {t('home.title')}
-          </h1>
+    <main className="relative min-h-screen overflow-hidden bg-background text-foreground flex flex-col">
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        aria-hidden="true"
+        className="absolute inset-0 w-full h-full object-cover z-0"
+      >
+        <source src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260314_131748_f2ca2a28-fed7-44c8-b9a9-bd9acdd5ec31.mp4" />
+      </video>
+
+      <nav className="relative z-10 flex row justify-between px-8 py-6 max-w-7xl mx-auto">
+        <a
+          href="/"
+          className="text-3xl tracking-tight text-foreground"
+          style={{ fontFamily: "'Instrument Serif', serif" }}
+        >
+          Velorah<sup className="text-xs">®</sup>
+        </a>
+
+        <div className="hidden md:flex items-center gap-8">
+          {navLinks.map((link) => (
+            <a
+              key={link.label}
+              href={link.href}
+              className={`text-sm transition-colors hover:text-foreground ${
+                link.active ? 'text-foreground' : 'text-muted-foreground'
+              }`}
+            >
+              {link.label}
+            </a>
+          ))}
         </div>
 
-        {/* Incoming section (on top) */}
-        <div>
-          <p className="mb-2 text-stone-100 text-xs md:text-sm font-medium">
-            {t('incoming.title')}
-          </p>
-          <ul className="text-xs md:text-sm text-stone-400 space-y-1">
-            <li>
-              <a
-                href="https://www.tinybox.ca/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex items-center gap-2 -mx-2 px-2 py-0.5 rounded-md transition-colors hover:bg-stone-800/80"
-              >
-                <span className="text-stone-400 group-hover:text-stone-100 transition-colors">
-                  {t('incoming.role1')}
-                </span>
-                <img src="/tinybox-logo.png" alt="tinybox systems" className="w-4 h-4" />
-                <span className="text-stone-400 group-hover:text-stone-100 transition-colors">
-                  {t('incoming.item1')}
-                </span>
-              </a>
-            </li>
-          </ul>
-        </div>
+        <Button
+          className="liquid-glass rounded-full px-6 py-2.5 text-sm text-foreground hover:scale-[1.03]"
+          aria-label="Begin Journey"
+        >
+          Begin Journey
+        </Button>
+      </nav>
 
-        {/* Currently section */}
-        <div>
-          <p className="mb-2 text-stone-100 text-xs md:text-sm font-medium">
-            {t('hero.currently')}
-          </p>
-          <ul className="text-xs md:text-sm text-stone-400 space-y-1">
-            <li>
-              <a
-                href="https://uwaterloo.ca"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex items-center gap-2 -mx-2 px-2 py-0.5 rounded-md transition-colors hover:bg-stone-800/80"
-              >
-                <span className="text-stone-400 group-hover:text-stone-100 transition-colors">
-                  {t('current.role1')}
-                </span>
-                <img src="/uwaterloo_logo.jpeg" alt="uwaterloo" className="w-4 h-4" />
-                <span className="text-stone-400 group-hover:text-stone-100 transition-colors">
-                  {t('current.school')}
-                </span>
-              </a>
-            </li>
-          </ul>
-        </div>
+      <section className="relative z-10 flex-1 flex flex-col items-center justify-center text-center px-6 pt-32 pb-40 py-[90px]">
+        <h1
+          className="text-5xl sm:text-7xl md:text-8xl leading-[0.95] tracking-[-2.46px] max-w-7xl font-normal animate-fade-rise"
+          style={{ fontFamily: "'Instrument Serif', serif" }}
+        >
+          Where <em className="not-italic text-muted-foreground">dreams</em> rise{' '}
+          <em className="not-italic text-muted-foreground">through the silence.</em>
+        </h1>
 
-        <div className="h-auto min-h-[80px] md:min-h-[60px]">
-          <div className="mt-4 space-y-3">
-            <div>
-              <p className="mb-2 text-stone-100 text-xs md:text-sm font-medium">{t('nav.blogs')}</p>
-              <div className="-mx-2 px-2">
-                <ul className="text-xs md:text-sm text-stone-400 space-y-1">
-                  <li>
-                    <a
-                      href="https://meridianadvertisinggroup.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="group flex items-center gap-2 -mx-2 px-2 py-0.5 rounded-md transition-colors hover:bg-stone-800/80"
-                    >
-                      <span className="text-stone-400 group-hover:text-stone-100 transition-colors">
-                        {t('life.ultimate.left')}
-                      </span>
-                      <img src="/meridian-logo.png" alt="meridian advertising agency" className="w-4 h-4 mix-blend-lighten" />
-                      <span className="text-stone-400 group-hover:text-stone-100 transition-colors">
-                        {t('life.ultimate.right')}
-                      </span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+        <p className="text-muted-foreground text-base sm:text-lg max-w-2xl mt-8 leading-relaxed animate-fade-rise-delay">
+          We're designing tools for deep thinkers, bold creators, and quiet rebels. Amid the chaos, we
+          build digital spaces for sharp focus and inspired work.
+        </p>
 
-        <Footer />
-      </div>
+        <Button className="liquid-glass rounded-full px-14 py-5 text-base text-foreground mt-12 hover:scale-[1.03] cursor-pointer animate-fade-rise-delay-2">
+          Begin Journey
+        </Button>
+      </section>
     </main>
   );
 }

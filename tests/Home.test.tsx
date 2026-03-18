@@ -10,15 +10,19 @@ const wrapper = ({ children }: { children: ReactNode }) => (
 );
 
 describe('Home Page', () => {
-  it('renders the greeting', () => {
+  it('renders the cinematic hero heading', () => {
     render(<Home />, { wrapper });
-    // Check for the English greeting (default)
-    expect(screen.getByText((content) => content.includes("hi i'm nitish"))).toBeInTheDocument();
+    expect(
+      screen.getByRole('heading', {
+        level: 1,
+        name: /Where dreams rise through the silence\./,
+      }),
+    ).toBeInTheDocument();
   });
 
-  it('renders the current role', () => {
+  it('renders the logo and CTAs', () => {
     render(<Home />, { wrapper });
-    // This key "hero.currently" translates to "Currently" in English
-    expect(screen.getByText('currently')).toBeInTheDocument();
+    expect(screen.getByText('Velorah')).toBeInTheDocument();
+    expect(screen.getAllByText('Begin Journey')).toHaveLength(2);
   });
 });
