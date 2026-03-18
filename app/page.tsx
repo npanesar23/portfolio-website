@@ -13,9 +13,12 @@ export default function Home() {
       </video>
 
       <section className="relative z-10 flex-1 flex flex-col items-center justify-center text-center px-6">
-        <p className="text-foreground text-base sm:text-lg leading-relaxed">
+        <h1
+          className="text-5xl sm:text-7xl md:text-8xl leading-[0.95] tracking-[-2.46px] max-w-7xl font-normal text-foreground animate-fade-rise"
+          style={{ fontFamily: "'Instrument Serif', serif" }}
+        >
           Nitish Panesar
-        </p>
+        </h1>
       </section>
     </main>
   );
