@@ -12,12 +12,48 @@ const jetbrainsMono = JetBrains_Mono({
   weight: ['400', '700'],
 });
 
+const siteUrl = 'https://nitishpanesar.com';
+const siteUrlBase = new URL(siteUrl);
+
 export const metadata: Metadata = {
-  title: 'nitish panesar',
-  description: "hi, i'm nitish! this is my personal website.",
-  metadataBase: new URL('https://nicholaschen.me'),
+  title: 'Nitish Panesar',
+  description:
+    'Nitish Panesar is a Geospatial Data Science student at the University of Waterloo, with experience in Growth & Go-to-Market at Tinybox Systems and leadership as Founder of Meridian Advertising Group.',
+  metadataBase: siteUrlBase,
+  alternates: {
+    canonical: '/',
+  },
   icons: {
     icon: [{ url: '/favicon.svg', type: 'image/svg+xml' }],
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: '/',
+    siteName: 'Nitish Panesar',
+    title: 'Nitish Panesar',
+    description:
+      'Nitish Panesar is a Geospatial Data Science student at the University of Waterloo, with experience in Growth & Go-to-Market at Tinybox Systems and leadership as Founder of Meridian Advertising Group.',
+    images: [
+      {
+        url: '/favicon.svg',
+        width: 32,
+        height: 32,
+        alt: 'Nitish Panesar',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Nitish Panesar',
+    description:
+      'Nitish Panesar is a Geospatial Data Science student at the University of Waterloo, with experience in Growth & Go-to-Market at Tinybox Systems and leadership as Founder of Meridian Advertising Group.',
+    images: ['/favicon.svg'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
   },
 };
 
