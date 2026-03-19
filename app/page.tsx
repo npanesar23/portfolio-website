@@ -47,7 +47,7 @@ export default function Home() {
               <div className="text-foreground text-base sm:text-lg font-medium">
                 Founder @ Meridian Advertising Group
               </div>
-              <div className="text-foreground/90 text-sm sm:text-base mt-1">Jan 2026 -</div>
+              <div className="text-foreground/90 text-sm sm:text-base mt-1">Jan 2026 - present</div>
             </div>
           </li>
 
@@ -62,7 +62,7 @@ export default function Home() {
                 Geospatial Data Science @ University of Waterloo
               </div>
               <div className="text-foreground/90 text-sm sm:text-base mt-1">
-                Sept 2024 - April 2029
+                Sept 2024 - present
               </div>
             </div>
           </li>
