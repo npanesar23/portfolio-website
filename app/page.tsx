@@ -20,8 +20,8 @@ export default function Home() {
           Nitish Panesar
         </h1>
 
-        <ul className="mt-12 w-full max-w-3xl space-y-8">
-          <li className="flex items-start gap-4">
+        <ul className="mt-12 flex flex-col items-center space-y-8 translate-x-2">
+          <li className="flex items-start gap-4 w-fit">
             <img
               src="/uwaterloo_logo.jpeg"
               alt="University of Waterloo logo"
@@ -37,7 +37,7 @@ export default function Home() {
             </div>
           </li>
 
-          <li className="flex items-start gap-4">
+          <li className="flex items-start gap-4 w-fit">
             <img
               src="/tinybox-logo.png"
               alt="Tinybox Systems logo"
@@ -53,7 +53,7 @@ export default function Home() {
             </div>
           </li>
 
-          <li className="flex items-start gap-4">
+          <li className="flex items-start gap-4 w-fit">
             <img
               src="/meridian-logo.png"
               alt="Meridian Advertising Group logo"
