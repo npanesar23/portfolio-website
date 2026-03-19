@@ -20,7 +20,7 @@ export default function Home() {
           Nitish Panesar
         </h1>
 
-        <ul className="mt-12 w-full max-w-3xl mx-auto space-y-8 translate-x-16">
+        <ul className="mt-12 w-full max-w-3xl mx-auto space-y-8 translate-x-28">
           <li>
             <div className="flex items-start gap-4">
               <a
