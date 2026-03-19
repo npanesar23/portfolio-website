@@ -22,105 +22,93 @@ export default function Home() {
 
         <ul className="mt-12 w-full max-w-3xl mx-auto space-y-8 translate-x-16">
           <li>
-            <a
-              href="https://www.tinybox.ca/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group relative flex items-start gap-4 hover:opacity-100"
-            >
-              <img
-                src="/tinybox-logo.png"
-                alt="Tinybox Systems logo"
-                className="w-10 h-10 object-contain mt-1"
-              />
-              <div className="text-left">
+            <div className="flex items-start gap-4">
+              <a
+                href="https://www.tinybox.ca/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <img
+                  src="/tinybox-logo.png"
+                  alt="Tinybox Systems logo"
+                  className="w-10 h-10 object-contain mt-1"
+                />
+              </a>
+              <a
+                href="https://www.tinybox.ca/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-left block hover:opacity-95"
+              >
                 <div className="text-foreground text-sm sm:text-base font-medium">
                   Growth &amp; Go-to-Market (GTM) @ Tinybox Systems
                 </div>
                 <div className="text-foreground/90 text-sm mt-1">
                   Summer 2026 Internship
                 </div>
-              </div>
-
-              <span
-                aria-hidden="true"
-                className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity"
-              >
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
-                  <polyline points="15 3 21 3 21 9" />
-                  <line x1="10" y1="14" x2="21" y2="3" />
-                </svg>
-              </span>
-            </a>
+              </a>
+            </div>
           </li>
 
           <li>
-            <a
-              href="https://www.meridianadvertisinggroup.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group relative flex items-start gap-4 hover:opacity-100"
-            >
-              <img
-                src="/meridian-logo.png"
-                alt="Meridian Advertising Group logo"
-                className="w-10 h-10 object-contain mt-1"
-              />
-              <div className="text-left">
+            <div className="flex items-start gap-4">
+              <a
+                href="https://www.meridianadvertisinggroup.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <img
+                  src="/meridian-logo.png"
+                  alt="Meridian Advertising Group logo"
+                  className="w-10 h-10 object-contain mt-1"
+                />
+              </a>
+              <a
+                href="https://www.meridianadvertisinggroup.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-left block hover:opacity-95"
+              >
                 <div className="text-foreground text-sm sm:text-base font-medium">
                   Founder @ Meridian Advertising Group
                 </div>
                 <div className="text-foreground/90 text-sm mt-1">
                   Jan 2026 - present
                 </div>
-              </div>
-
-              <span
-                aria-hidden="true"
-                className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity"
-              >
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
-                  <polyline points="15 3 21 3 21 9" />
-                  <line x1="10" y1="14" x2="21" y2="3" />
-                </svg>
-              </span>
-            </a>
+              </a>
+            </div>
           </li>
 
           <li>
-            <a
-              href="https://uwaterloo.ca/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group relative flex items-start gap-4 hover:opacity-100"
-            >
-              <img
-                src="/uwaterloo_logo.jpeg"
-                alt="University of Waterloo logo"
-                className="w-10 h-10 object-contain mt-1"
-              />
-              <div className="text-left">
+            <div className="flex items-start gap-4">
+              <a
+                href="https://uwaterloo.ca/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <img
+                  src="/uwaterloo_logo.jpeg"
+                  alt="University of Waterloo logo"
+                  className="w-10 h-10 object-contain mt-1"
+                />
+              </a>
+              <a
+                href="https://uwaterloo.ca/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-left block hover:opacity-95"
+              >
                 <div className="text-foreground text-sm sm:text-base font-medium">
                   Geospatial Data Science @ University of Waterloo
                 </div>
                 <div className="text-foreground/90 text-sm mt-1">
                   Sept 2024 - present
                 </div>
-              </div>
-
-              <span
-                aria-hidden="true"
-                className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity"
-              >
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
-                  <polyline points="15 3 21 3 21 9" />
-                  <line x1="10" y1="14" x2="21" y2="3" />
-                </svg>
-              </span>
-            </a>
+              </a>
+            </div>
           </li>
         </ul>
       </div>
