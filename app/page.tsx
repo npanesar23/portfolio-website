@@ -20,7 +20,7 @@ export default function Home() {
           Nitish Panesar
         </h1>
 
-        <ul className="mt-12 w-full max-w-3xl mx-auto space-y-8 translate-x-2">
+        <ul className="mt-12 w-full max-w-3xl mx-auto space-y-8 translate-x-6">
           <li className="flex items-start gap-4">
             <img
               src="/tinybox-logo.png"
