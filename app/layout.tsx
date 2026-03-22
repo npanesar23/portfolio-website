@@ -18,7 +18,7 @@ const siteUrlBase = new URL(siteUrl);
 export const metadata: Metadata = {
   title: 'Nitish Panesar',
   description:
-    'Nitish Panesar is a Geospatial Data Science student at the University of Waterloo, with experience in Growth & Go-to-Market at Tinybox Systems and leadership as Founder of Meridian Advertising Group.',
+    'Nitish Panesar is a Geospatial Data Science student at the University of Waterloo, with experience in Growth & Go-to-Market at Tinybox Systems and leadership as Co-Founder of Meridian Advertising Group.',
   metadataBase: siteUrlBase,
   alternates: {
     canonical: '/',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     siteName: 'Nitish Panesar',
     title: 'Nitish Panesar',
     description:
-      'Nitish Panesar is a Geospatial Data Science student at the University of Waterloo, with experience in Growth & Go-to-Market at Tinybox Systems and leadership as Founder of Meridian Advertising Group.',
+      'Nitish Panesar is a Geospatial Data Science student at the University of Waterloo, with experience in Growth & Go-to-Market at Tinybox Systems and leadership as Co-Founder of Meridian Advertising Group.',
     images: [
       {
         url: '/favicon.svg',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: 'summary',
     title: 'Nitish Panesar',
     description:
-      'Nitish Panesar is a Geospatial Data Science student at the University of Waterloo, with experience in Growth & Go-to-Market at Tinybox Systems and leadership as Founder of Meridian Advertising Group.',
+      'Nitish Panesar is a Geospatial Data Science student at the University of Waterloo, with experience in Growth & Go-to-Market at Tinybox Systems and leadership as Co-Founder of Meridian Advertising Group.',
     images: ['/favicon.svg'],
   },
   robots: {
