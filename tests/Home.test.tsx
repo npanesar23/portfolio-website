@@ -21,6 +21,6 @@ describe('Home Page', () => {
       screen.getByText('Geospatial Data Science @ University of Waterloo'),
     ).toBeInTheDocument();
     expect(screen.getByText('Growth & Go-to-Market (GTM) @ Tinybox Systems')).toBeInTheDocument();
-    expect(screen.getByText('Co-Founder @ Meridian Advertising Group')).toBeInTheDocument();
+    expect(screen.getByText('Founder @ Meridian Advertising Group')).toBeInTheDocument();
   });
 });

@@ -72,7 +72,7 @@ export default function Home() {
                 className="text-left block hover:opacity-95"
               >
                 <div className="text-foreground text-sm sm:text-base font-medium">
-                  Co-Founder @ Meridian Advertising Group
+                  Founder @ Meridian Advertising Group
                 </div>
                 <div className="text-foreground/90 text-sm mt-1">
                   Jan 2026 - present
